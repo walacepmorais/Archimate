@@ -8,12 +8,13 @@
       id="92f87d9f-8df4-4ba9-808a-a52a904d1c6c"
       font="1|Segoe UI|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
       textAlignment="1"
+      locked="true"
       borderColor="#000000"
       content="Service Name:"
       textPosition="1">
     <bounds
         y="-12"
-        width="289"
+        width="433"
         height="73"/>
   </children>
   <children
@@ -21,13 +22,14 @@
       id="205545f2-5410-407b-86dc-d555e545f238"
       font="1|Segoe UI|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
       textAlignment="1"
+      locked="true"
       borderColor="#000000"
       content="Description:"
       textPosition="1">
     <bounds
-        x="288"
+        x="432"
         y="-12"
-        width="596"
+        width="740"
         height="73"/>
   </children>
   <children
@@ -35,123 +37,133 @@
       id="9af1b6be-2dc2-4300-b344-1b750a8502ff"
       font="1|Segoe UI|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
       textAlignment="1"
+      locked="true"
       borderColor="#000000"
       content="Consumer Tasks">
     <bounds
         y="60"
-        width="200"
-        height="421"/>
+        width="276"
+        height="601"/>
   </children>
   <children
       xsi:type="canvas:CanvasModelBlock"
       id="71e3466d-aaed-48e2-964d-0891a85ebb82"
       font="1|Segoe UI|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+      locked="true"
       borderColor="#000000"
       content="Interface">
     <bounds
-        x="199"
+        x="275"
         y="60"
-        width="486"
-        height="205"/>
+        width="622"
+        height="325"/>
     <children
         xsi:type="canvas:CanvasModelBlock"
         id="eaef0d5d-4aa4-40ee-9efa-2c20ccd76bff"
         textAlignment="1"
+        locked="true"
         borderColor="#000000"
         content="QUERIES">
       <bounds
           x="24"
           y="36"
-          width="200"
-          height="73"/>
+          width="288"
+          height="121"/>
     </children>
     <children
         xsi:type="canvas:CanvasModelBlock"
         id="544d4b47-2cc7-4ce7-9101-8a50bb3f93f4"
         textAlignment="1"
+        locked="true"
         borderColor="#000000"
         content="COMMANDS">
       <bounds
-          x="252"
+          x="324"
           y="36"
-          width="200"
-          height="73"/>
+          width="288"
+          height="121"/>
     </children>
     <children
         xsi:type="canvas:CanvasModelBlock"
         id="d151a36b-ff50-493f-8da9-b54194da87ea"
         textAlignment="1"
+        locked="true"
         borderColor="#000000"
         content="EVENT SUBSCRIPTIONS">
       <bounds
           x="24"
-          y="120"
-          width="200"
-          height="73"/>
+          y="168"
+          width="288"
+          height="133"/>
     </children>
     <children
         xsi:type="canvas:CanvasModelBlock"
         id="9df5426c-6928-4f2a-8bb2-5822abefda30"
         textAlignment="1"
+        locked="true"
         borderColor="#000000"
         content="EVENT PUBLICATIONS">
       <bounds
-          x="252"
-          y="120"
-          width="200"
-          height="73"/>
+          x="324"
+          y="168"
+          width="288"
+          height="133"/>
     </children>
-  </children>
-  <children
-      xsi:type="canvas:CanvasModelBlock"
-      id="ede908a7-d303-437f-a188-c5c2f9198d28"
-      font="1|Segoe UI|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
-      textAlignment="1"
-      borderColor="#000000"
-      content="Dependencies">
-    <bounds
-        x="684"
-        y="60"
-        width="200"
-        height="421"/>
   </children>
   <children
       xsi:type="canvas:CanvasModelBlock"
       id="2ddeb11f-df08-4218-88b6-238c5e04279e"
       font="1|Segoe UI|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
-      textAlignment="1"
+      fillColor="#ffffff"
+      locked="true"
       borderColor="#000000"
       content="Logic/Rules">
     <bounds
-        x="361"
-        y="264"
-        width="162"
-        height="217"/>
+        x="480"
+        y="384"
+        width="213"
+        height="277"/>
   </children>
   <children
       xsi:type="canvas:CanvasModelBlock"
       id="bd6c1530-548f-442b-a099-d406dad608fe"
       font="1|Segoe UI|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
-      textAlignment="1"
+      fillColor="#ffffff"
+      locked="true"
       borderColor="#000000"
       content="Qualities">
     <bounds
-        x="199"
-        y="264"
-        width="162"
-        height="217"/>
+        x="275"
+        y="384"
+        width="206"
+        height="277"/>
   </children>
   <children
       xsi:type="canvas:CanvasModelBlock"
       id="a35a3ae1-920e-45f6-8c43-9835e31f5a17"
       font="1|Segoe UI|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
-      textAlignment="1"
+      fillColor="#ffffff"
+      locked="true"
       borderColor="#000000"
       content="Data">
     <bounds
-        x="522"
-        y="264"
-        width="162"
-        height="217"/>
+        x="693"
+        y="384"
+        width="204"
+        height="277"/>
+  </children>
+  <children
+      xsi:type="canvas:CanvasModelBlock"
+      id="42be1c1a-7488-42ce-8eac-c00bd08abaaf"
+      font="1|Segoe UI|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+      textAlignment="1"
+      locked="true"
+      borderColor="#000000"
+      content="Consumer Tasks">
+    <bounds
+        x="896"
+        y="60"
+        width="276"
+        height="601"/>
   </children>
 </canvas:CanvasModel>
