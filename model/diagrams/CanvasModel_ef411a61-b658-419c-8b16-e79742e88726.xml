@@ -6,7 +6,7 @@
   <children
       xsi:type="canvas:CanvasModelBlock"
       id="6fc3be19-ebb0-4fc6-8e4b-a8abbd196c76"
-      font="1|Segoe UI|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+      font="1|Segoe UI|14.25|1|WINDOWS|1|-19|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
       textAlignment="1"
       borderColor="#000000"
       content="Service Name:">
@@ -15,11 +15,24 @@
         y="70"
         width="661"
         height="121"/>
+    <children
+        xsi:type="canvas:CanvasModelSticky"
+        id="f40a4c46-915c-4e49-ae08-ccf338bb75f9"
+        textAlignment="1"
+        fillColor="#80ff80"
+        content="Integração FPW Folha x ScheduAll"
+        borderColor="#C0C0C0">
+      <bounds
+          x="216"
+          y="24"
+          width="128"
+          height="83"/>
+    </children>
   </children>
   <children
       xsi:type="canvas:CanvasModelBlock"
       id="d98b05fb-5e20-4de8-ba9d-5b573fbcb2c0"
-      font="1|Segoe UI|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+      font="1|Segoe UI|14.25|1|WINDOWS|1|-19|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
       textAlignment="1"
       borderColor="#000000"
       content="Description:">
@@ -28,11 +41,25 @@
         y="70"
         width="1164"
         height="121"/>
+    <children
+        xsi:type="canvas:CanvasModelSticky"
+        id="90e354c5-1efc-4d19-a171-d4e82cb894a2"
+        fontColor="#000000"
+        textAlignment="1"
+        fillColor="#80ffff"
+        content="Envio dos dados cadastrais dos funcionários do Esporte que constam no FPW Folha para o ScheduAll"
+        borderColor="#C0C0C0">
+      <bounds
+          x="192"
+          y="12"
+          width="147"
+          height="92"/>
+    </children>
   </children>
   <children
       xsi:type="canvas:CanvasModelBlock"
       id="bdcf7167-6684-49f1-82b4-f8df9d69a0fb"
-      font="1|Segoe UI|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+      font="1|Segoe UI|14.25|1|WINDOWS|1|-19|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
       textAlignment="1"
       borderColor="#000000"
       content="Consumer Tasks">
@@ -41,11 +68,102 @@
         y="190"
         width="1824"
         height="147"/>
+    <children
+        xsi:type="canvas:CanvasModelSticky"
+        id="4e4cc44f-b6ac-4a11-a897-6c92b28f0276"
+        textAlignment="1"
+        fillColor="#ffff80"
+        content="Envio de eventos (afastamento, férias, licenças, etc.)&#xD;&#xA;"
+        borderColor="#C0C0C0">
+      <bounds
+          x="1212"
+          y="24"
+          width="120"
+          height="88"/>
+    </children>
+    <children
+        xsi:type="canvas:CanvasModelSticky"
+        id="fe9802c9-5130-4a66-9df3-99aad691d9a3"
+        textAlignment="1"
+        fillColor="#ffff80"
+        content="Envio de saídas do esporte&#xD;&#xA;"
+        borderColor="#C0C0C0">
+      <bounds
+          x="1056"
+          y="48"
+          width="120"
+          height="88"/>
+    </children>
+    <children
+        xsi:type="canvas:CanvasModelSticky"
+        id="e0c88b46-eacc-49d7-9fec-6c65d179fbe0"
+        textAlignment="1"
+        fillColor="#ffff80"
+        content="Envio de entradas no esporte"
+        borderColor="#C0C0C0">
+      <bounds
+          x="900"
+          y="24"
+          width="120"
+          height="88"/>
+    </children>
+    <children
+        xsi:type="canvas:CanvasModelSticky"
+        id="793f2fb3-23c7-442d-8693-6cfc90cee950"
+        textAlignment="1"
+        fillColor="#ffff80"
+        content="Envio de atualizações cadastrais&#xD;&#xA;"
+        borderColor="#C0C0C0">
+      <bounds
+          x="732"
+          y="24"
+          width="120"
+          height="88"/>
+    </children>
+    <children
+        xsi:type="canvas:CanvasModelSticky"
+        id="34448b1f-9d27-449d-9c5c-a42c62269cc3"
+        textAlignment="1"
+        fillColor="#ffff80"
+        content="Envio de demissões"
+        borderColor="#C0C0C0">
+      <bounds
+          x="540"
+          y="36"
+          width="120"
+          height="89"/>
+    </children>
+    <children
+        xsi:type="canvas:CanvasModelSticky"
+        id="5db1b379-14d7-47e1-9277-c263083d41b7"
+        textAlignment="1"
+        fillColor="#ffff80"
+        content="Envio de admissões"
+        borderColor="#C0C0C0">
+      <bounds
+          x="396"
+          y="12"
+          width="120"
+          height="89"/>
+    </children>
+    <children
+        xsi:type="canvas:CanvasModelSticky"
+        id="86a7ab26-a6aa-4e4e-8ebb-758901e9ed60"
+        textAlignment="1"
+        fillColor="#ffff80"
+        content="Tarefa agendada no Integrafacil&#xD;&#xA;"
+        borderColor="#C0C0C0">
+      <bounds
+          x="216"
+          y="24"
+          width="120"
+          height="88"/>
+    </children>
   </children>
   <children
       xsi:type="canvas:CanvasModelBlock"
       id="0b7f78ef-1843-4a08-9d39-cdb1bd3da6c2"
-      font="1|Segoe UI|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+      font="1|Segoe UI|14.25|1|WINDOWS|1|-19|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
       borderColor="#000000"
       content="Interface">
     <bounds
@@ -67,6 +185,45 @@
         y="648"
         width="615"
         height="229"/>
+    <children
+        xsi:type="canvas:CanvasModelSticky"
+        id="06b41eee-cb68-48bf-8c63-0b8eb075339d"
+        textAlignment="1"
+        fillColor="#ffa093"
+        content="Carga dos funcionários que&#xD;&#xA;a. Pertençam ao GH “010105” (Esporte) &#xD;&#xA;b. Sejam dos níveis 9 ou 10 ou 11 do GH (supervisor e equipe)&#xD;&#xA;c. Pertençam às ARs de Conteúdo listadas&#xD;&#xA;"
+        borderColor="#C0C0C0">
+      <bounds
+          x="36"
+          y="60"
+          width="156"
+          height="132"/>
+    </children>
+    <children
+        xsi:type="canvas:CanvasModelSticky"
+        id="37a7f4f6-f60d-437a-9e48-8659af41b02c"
+        textAlignment="1"
+        fillColor="#ffa093"
+        content="Eventos “Entrada em Esporte” e “Saída de Esporte”:  considerar se o funcionário pertence ao GH raiz do Esporte (010105)"
+        borderColor="#C0C0C0">
+      <bounds
+          x="240"
+          y="30"
+          width="156"
+          height="120"/>
+    </children>
+    <children
+        xsi:type="canvas:CanvasModelSticky"
+        id="60d15606-ec78-41f5-a275-5be9996abdae"
+        textAlignment="1"
+        fillColor="#ffa093"
+        content="A matrícula dos funcionários de Esporte terá um “E” na primeira posição para distinguir das matrículas dos funcionários da GSAT"
+        borderColor="#C0C0C0">
+      <bounds
+          x="432"
+          y="36"
+          width="156"
+          height="108"/>
+    </children>
   </children>
   <children
       xsi:type="canvas:CanvasModelBlock"
@@ -81,6 +238,71 @@
         y="408"
         width="614"
         height="241"/>
+    <children
+        xsi:type="canvas:CanvasModelSticky"
+        id="87db244f-56f4-4453-8603-2fcf3a76e5b6"
+        textAlignment="1"
+        fillColor="#c6d8fa"
+        content="Envio de dados em lote&#xD;&#xA;"
+        borderColor="#C0C0C0">
+      <bounds
+          x="96"
+          y="24"
+          width="132"
+          height="96"/>
+    </children>
+    <children
+        xsi:type="canvas:CanvasModelSticky"
+        id="bce4a950-f2a7-4bec-b28c-448a897ffab1"
+        textAlignment="1"
+        fillColor="#c6d8fa"
+        content="SOAP/HTTPS&#xD;&#xA;&#xD;&#xA;"
+        borderColor="#C0C0C0">
+      <bounds
+          x="252"
+          y="24"
+          width="132"
+          height="96"/>
+    </children>
+    <children
+        xsi:type="canvas:CanvasModelSticky"
+        id="0131b8c1-8b00-4218-9ccf-6ee3170cf3c3"
+        textAlignment="1"
+        fillColor="#c6d8fa"
+        content="Autenticação via certificado x.509&#xD;&#xA;"
+        borderColor="#C0C0C0">
+      <bounds
+          x="408"
+          y="24"
+          width="132"
+          height="96"/>
+    </children>
+    <children
+        xsi:type="canvas:CanvasModelSticky"
+        id="af8e9d06-9c9b-4574-b1c3-ba8642ce33ac"
+        textAlignment="1"
+        fillColor="#c6d8fa"
+        content="Priorizar a comunicação via rede interna&#xD;&#xA;&#xD;&#xA;"
+        borderColor="#C0C0C0">
+      <bounds
+          x="168"
+          y="132"
+          width="132"
+          height="96"/>
+    </children>
+    <children
+        xsi:type="canvas:CanvasModelSticky"
+        id="4dc0dc2a-ba2a-43cc-b552-33bd82b5f1f9"
+        textAlignment="1"
+        fillColor="#c6d8fa"
+        content="Cerca de 300 funcionários"
+        borderColor="#C0C0C0">
+      <bounds
+          x="420"
+          y="132"
+          width="132"
+          height="96"/>
+    </children>
   </children>
   <children
       xsi:type="canvas:CanvasModelBlock"
@@ -95,11 +317,37 @@
         y="876"
         width="615"
         height="349"/>
+    <children
+        xsi:type="canvas:CanvasModelSticky"
+        id="1105dd5d-135b-4163-908a-182738b4d7db"
+        textAlignment="1"
+        fillColor="#f7c4c4"
+        content="Funcionários&#xD;&#xA;"
+        borderColor="#C0C0C0">
+      <bounds
+          x="72"
+          y="48"
+          width="132"
+          height="97"/>
+    </children>
+    <children
+        xsi:type="canvas:CanvasModelSticky"
+        id="c2fc3710-2e28-4515-a1ab-6ba5a1403687"
+        textAlignment="1"
+        fillColor="#f7c4c4"
+        content="Disponibilidade&#xD;&#xA;"
+        borderColor="#C0C0C0">
+      <bounds
+          x="228"
+          y="48"
+          width="132"
+          height="96"/>
+    </children>
   </children>
   <children
       xsi:type="canvas:CanvasModelBlock"
       id="8e5421b3-e0a7-4b33-8ef8-357132177056"
-      font="1|Segoe UI|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+      font="1|Segoe UI|14.25|1|WINDOWS|1|-19|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
       borderColor="#000000"
       content="Dependencies">
     <bounds
@@ -111,7 +359,7 @@
   <children
       xsi:type="canvas:CanvasModelBlock"
       id="9e1e3b39-a73f-4b19-ba69-6d8aebe991d4"
-      font="1|Segoe UI|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+      font="1|Segoe UI|14.25|1|WINDOWS|1|-19|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
       fillColor="#ffffff"
       borderColor="#000000"
       content="Implementation">
@@ -133,6 +381,32 @@
         y="408"
         width="566"
         height="469"/>
+    <children
+        xsi:type="canvas:CanvasModelSticky"
+        id="04f67bc3-bde3-46f6-8524-87dd8c2577e6"
+        textAlignment="1"
+        fillColor="#c6d8fa"
+        content="Serviço de envio unitário de atualizações"
+        borderColor="#C0C0C0">
+      <bounds
+          x="120"
+          y="84"
+          width="168"
+          height="84"/>
+    </children>
+    <children
+        xsi:type="canvas:CanvasModelSticky"
+        id="43a91775-237b-42f6-80d0-b5e972ca1410"
+        textAlignment="1"
+        fillColor="#c6d8fa"
+        content="Os itens da lista de atualizações são enviados um a um"
+        borderColor="#C0C0C0">
+      <bounds
+          x="156"
+          y="132"
+          width="168"
+          height="84"/>
+    </children>
   </children>
   <children
       xsi:type="canvas:CanvasModelBlock"
@@ -175,6 +449,19 @@
         y="648"
         width="646"
         height="229"/>
+    <children
+        xsi:type="canvas:CanvasModelSticky"
+        id="0072f9b9-a0c7-4474-be73-c56a4d9b4dcd"
+        textAlignment="1"
+        fillColor="#c6f9c6"
+        content="- Exclusão de evento&#xD;&#xA;- Inclusão de evento&#xD;&#xA;"
+        borderColor="#C0C0C0">
+      <bounds
+          x="144"
+          y="48"
+          width="131"
+          height="80"/>
+    </children>
   </children>
   <children
       xsi:type="canvas:CanvasModelBlock"
