@@ -159,7 +159,7 @@
       textAlignment="1"
       locked="true"
       borderColor="#000000"
-      content="Consumer Tasks">
+      content="Dependencies">
     <bounds
         x="896"
         y="60"
